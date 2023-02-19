@@ -26,11 +26,10 @@ ImageMerge -prog firmware.bin -fs littlefs.bin -image everything.bin -offset 102
 *** Note: Find correct offset value for your board:  
 https://arduino-esp8266.readthedocs.io/en/latest/filesystem.html
 
-This will produce everything bin from firmware.bin and littlefs.bin.
+This will produce everything bin from firmware.bin and littlefs.bin.  
+Distribute this file with Esptool.exe and upload.bat
 
-Distribute this file with Esptool.exe and upload.bat  
 On customer side:  
 Copy Esptool.exe. upload.bat and everything.bin to a folder. Open a CMD window in this folder.  
-
 Execute upload.bat with a connected ESP-board.  
 *** Note that flash_mode in batch file must match the board_build.flash_mode in platformio.ini
