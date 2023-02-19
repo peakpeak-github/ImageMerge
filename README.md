@@ -21,10 +21,13 @@ Your friends/customers then only need three files without any installation requi
 3.	A batch file starting ESPTool with the required arguments.
 
 Usage:
+
 ImageMerge -prog firmware.bin -fs littlefs.bin -image everything.bin -offset 1024  -v
+
 This will produce everything bin from firmware.bin and littlefs.bin.
 Distribute this file with Esptool.exe and upload.bat
 
 On customer side:
 Copy Esptool.exe. upload.bat and everything.bin to a folder. Open a CMD window in this folder.
+
 Execute upload.bat with a connected ESP-board.
