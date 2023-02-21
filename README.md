@@ -1,5 +1,6 @@
 # ImageMerge
 Distribute your ESP-* project as one binary file.
+Don't know what ESP-* is? Read here: 
 https://arduino-esp8266.readthedocs.io/en/latest/
 
 If you have built a solution you want to share among friends/customers but do not want to :
