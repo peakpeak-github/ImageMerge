@@ -9,9 +9,9 @@ or
 
 Then one possible solution is to distribute the memory image of both the program partition and the filesystem partition as one single binary file which can be uploaded by one single program to the board.
 
-Meet ImageMerge and ESPTool.exe! 
+Meet ImageMerge and esptool.exe! 
 
-I will not take any credit for ESPTool, it’s a python program which I converted into a an .exe with pyinstall to be self-contained without any dependencies. 
+I will not take any credit for esptool, it’s a python program which I converted into a an .exe with pyinstall to be self-contained without any dependencies. 
 
 ImageMerge combines both the program partition and the filesystem partition as one single binary file.
 This file can then be uploaded to the board with esptool.exe. 
